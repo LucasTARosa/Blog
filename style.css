@@ -5,6 +5,7 @@ body{
     margin: auto;
 }
 
+
 .photo{
     border: 1px #505050;
     border-radius: 50%;
@@ -21,12 +22,21 @@ color: #505050;
     text-transform: uppercase;
     text-align: center;
 }
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: start;   
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 0;
+}
 .Who_I_am{
     width: 200px;
     height: 200px;
     border-radius: 5px;
-    margin: 0;
     margin-bottom: 15px;
+
+    
 }
 
 .quem_sou_eu{
@@ -77,6 +87,56 @@ a{
     height: 50%;
     border-radius: 5px;
 }
+
+
+.post2_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 0;
+}
+.post2{
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    width: 100%;
+}
+.post2_1{
+    margin: 0;
+    text-align: justify;
+    width: 50rem;
+}
+.post2_image{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+contato{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+.link-github{
+    background-image: url(./img/github-logo.png);
+}
+.link-gmail{
+    background-image: url(./img/gmail-logo.png);
+}
+.link-linkedin{
+    background-image: url(./img/linkedin-logo.png);
+}
+.link-fb{
+    background-image: url();
+}
+.link-insta{
+    background-image: url(./img/Insta-logo.png);
+}
 .list{
    list-style-type: none; 
    padding: 0;
@@ -86,6 +146,22 @@ a{
     text-decoration: none;
     color: #535353;
 }
+.link-contato:nth-child(1){
+background-image: url(.img/github-logo.png);
+}
+.link-contato:nth-child(2){
+    background-image: url(./img/gmail-logo.png);
+}
+.link-contato:nth-child(3){
+    background-image: url(./img/linkedin-logo.png);
+}
+.link-contato:nth-child(4){
+    background-image: url(./img/fb-logo.png);
+}
+.link-contato:nth-child(5){
+    background-image: url(./img/Insta-logo.png);
+}
+
 .footer p{
 margin: 15px;
 margin-top: 50px;

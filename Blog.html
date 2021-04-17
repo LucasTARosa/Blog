@@ -10,13 +10,14 @@
 <body>
 
 <header>
-    <img src="60736.svg" alt="Símbolo de um blog" class="photo">
+    <img src="./img/60736.svg" alt="Símbolo de um blog" class="photo">
         <h1 id="title">Blog do Ap</h1>
 </header>
 <section>
     <header>
         <h3 class="post_title">Quem sou eu?</h3>
-        <img src="Foto de perfil.jpg" alt="Ilustração do meu rosto" class="Who_I_am">
+        <div class="cabecalho">
+        <img src="./img/Foto-de-perfil.jpg" alt="Ilustração do meu rosto" class="Who_I_am">
         <p class="quem_sou_eu">
 Sou apenas um doutorando em química, que teve um primeiro contato com programação através do HTML 
 no ensino fundamental, mas que não se importou muito, apesar de ter gostado. Os anos se 
@@ -35,6 +36,7 @@ a programação em HTML e algumas formatações básicas em CSS. Gostei tanto qu
 este texto como forma de prática. Quero manter o formato de um blog, escrevendo posts relacionados a minha 
 experiência que irei conquistando, relatando todo esse processo de aprendizado e, quiçá, de mudança de carreira.
         </p>
+    </div>
     </header>
 </section>
 <section>
@@ -45,7 +47,7 @@ experiência que irei conquistando, relatando todo esse processo de aprendizado 
         <header>
             <h3 class="post1_title">Primeira aula de HTML + CSS</h3>
             <h4 class="data">Alfenas, 15 de abril de 2021</h4>
-            <img src="html+css.png" alt="logo do HTML e do CSS" class="post1_image">
+            <img src="./img/html+css.png" alt="logo do HTML e do CSS" class="post1_image">
         </header>
         <p class="post1_1">
             Esta foi minha primeira aula de HTML, o que me permitiu dar o primeiro corpo para 
@@ -67,15 +69,45 @@ experiência que irei conquistando, relatando todo esse processo de aprendizado 
             estado de aprendizagem, o "blog" diz por si só. Espero novidades e aprendizado! 
         </p>
     </article>
+    <article class="post">
+        <header>
+            <h3 class="post2_title">Recriando a página do Instagram</h3>
+            <h4 class="data">Alfenas, 17 de abril de 2021</h4>
+        </header>
+            <div class="post2">
+            <img src="./img/Insta-logo.png" alt="logo do Instagram" class="post2_image">
+        <p class="post2_1">
+            Continuando no aprendizado sobre HTML e CSS cheguei em uma parte muito interessante, ao menos do meu ponto de vista. Aprendi a formatar e mudar a posição de algumas regiões da página.
+            O que mais acho interessante das aulas da DIO não é, necessariamente, nas coisas legais que fazemos, mas sim em como eles ensinam conceitos básicos sem serem chatos e repetitivos 
+            como em escolas tradicionais. Ao invés de fazer com que tenhamos que decorar algo, eles mostram o que cada coisa faz na prática, colocando para o aluno diversos temas que ele, de fato, 
+            não sabe! Mas que está ali para aprender na prática, como funciona de verdade e não um texto falando "determinada coisa faz isso, por causa disso e blá blá blá". Mais especificamente
+            sobre a aula de hoje, tenho que dizer que eu NUNCA imaginei que na vida conseguiria repetir algo (mesmo que simples) que uma empresa grande já realizou. Não ficou exaaatamente igual
+            a página do Instagram, alguns conceitos ainda quero trabalhar melhor, mas consegui aprender diferentes coisas que são muito legais e úteis! Mesmo conseguindo realizar algumas formatações e, 
+            as vezes, criações, ainda não me considero nem um usário básico de HTML ou CSS. Me falta prática, me falta domínio, me falta diversidade, mas posso dizer que ao final dessa aula eu sei mais
+            do que no início, então isso significa que estou no caminho certo. Em comparação a química, por exemplo, é clara a diferença no avanço que o curso toma, onde na DIO trabalhamos com passos largos
+            (e que talvez devam ser revistos várias vezes para que sejam passos firmes), desafiantes e que te tiram da zona de conforto até mesmo para acompanhar o que está sendo feito.
+        </p>
+    </div>
+    </article>
 </section>
+
 <footer class="footer">
     <p>Informações de contato</p>
+    <!-- <div class="contato">
+        <a href="https://github.com/LucasTARosa" class="link-github" target="_blank"></a>
+        <a href="tlucas.23@gmail.com" class="link-gmail"></a>
+        <a href="https://www.linkedin.com/in/lucas-rosa-ap/" class="link-linkedin" target="_blank"></a>
+        <a href="https://www.facebook.com/tlucas.ap" class="link-fb" target="_blank"></a>
+        <a href="https://www.instagram.com/lucas.ap04/?hl=pt-br" target="_blank" class="link-insta" target="_blank"></a>
+    </div>-->
     
+
 <ul class="list">
-    <li><a href="tlucas.23@gmail.com">E-mail</a></li>
-    <li><a href="https://www.linkedin.com/in/lucas-rosa-ap/" target="_blank">Linkedin</a></li>
-    <li><a href="https://github.com/LucasTARosa" target="_blank">GitHub</a></li>
-    <li><a href="https://www.facebook.com/tlucas.ap" target="_blank">Facebook</a></li>
+    <li><a href="tlucas.23@gmail.com" class="link-contato">E-mail</a></li>
+    <li><a href="https://www.linkedin.com/in/lucas-rosa-ap/" target="_blank" class="link-contato">Linkedin</a></li>
+    <li><a href="https://github.com/LucasTARosa" target="_blank" class="link-contato">GitHub</a></li>
+    <li><a href="https://www.facebook.com/tlucas.ap" target="_blank" class="link-contato">Facebook</a></li>
+    <li><a href="https://www.instagram.com/lucas.ap04/?hl=pt-br" target="_blank" class="link-contato">Instagram</a></li>
 </ul>
 
 </footer>

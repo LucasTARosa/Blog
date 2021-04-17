@@ -19,3 +19,9 @@ Este blog conta a história de um doutorando em química que começou a flertar 
 - Foi feito um primeiro esqueleto e o primeiro post falando sobre HTML e CSS, com a formatação que eu sabia realizar na época.
 
   
+
+##### 17/04/2021
+
+- Adicionei um novo post, falando sobre a recriação da página inicial do Instagram, utilizei alguns conceitos da aula na própria postagem, como o alinhamento do texto e da imagem.
+- Consegui alinhar a minha imagem ao centro no início do blog.
+
