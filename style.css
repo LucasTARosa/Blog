@@ -4,8 +4,28 @@ body{
     max-width: 900px;
     margin: auto;
 }
-
-
+/*cabeçalho*/
+header .nav {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: flex-start;
+}
+header .pgs{
+    margin-left: 50px;
+}
+header .pg{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+header .pg:hover{
+    color: rgb(122, 122, 122);
+}
+/*descrição*/
 .photo{
     border: 1px #505050;
     border-radius: 50%;
@@ -50,12 +70,20 @@ a{
     text-decoration: underline;
     color: #505050;
 }
-.post1_title{
+/*configuração geral dos posts*/
+.post_title{
     font-size: 16px;
     font-style: italic;
     margin: 0;
     margin-bottom: 0;
 }
+
+.data{
+    font-style: italic;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+/*primeiro post*/
 
 .post{
     background: #fff ;
@@ -65,11 +93,7 @@ a{
     margin-bottom: 15px;
     border-radius: 5px;
 }
-.data{
-    font-style: italic;
-    font-size: 10px;
-    margin-bottom: 15px;
-}
+
 .post1_1{
     margin: 0;
     text-transform: capitalize;
@@ -88,13 +112,7 @@ a{
     border-radius: 5px;
 }
 
-
-.post2_title{
-    font-size: 16px;
-    font-style: italic;
-    margin: 0;
-    margin-bottom: 0;
-}
+/*post2*/
 .post2{
     display: flex;
     align-items: center;
@@ -116,54 +134,99 @@ a{
     justify-content: center;
     width: 30%;
 }
+/* post3 */
+.post3 .javascript{
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.post3_1{
+    margin: 0;
+    text-align: justify;
+}
 
-contato{
-    height: 3rem;
-    width: 10rem;
+.post3 .botao{
+    background-color: rgba(0, 0, 0,.50);
+    color: rgb(231, 229, 229);
+    border: 0;
+    padding: 5px 10px;
+    margin: 0;
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50px;
+}
+.post3 .botao:hover{
+    background-color: #4b0082;
+}
+.post3 .selecao{
+    background-color: rgba(0, 0, 0,.50);
+    color: white;
+    margin: 0;
+    margin-top: 12px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px 5px;
+    border-radius: 50px;
+}
+.post3 .selecao:hover{
+    background-color: rgba(0, 0, 0,.80);
+}
+
+.post3 .botoes{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content:space-between;
+    max-width: 300px;
+}
+
+/*roda pé*/
+.footer p{
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    }
+.informacoes{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.contato{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.link{
+    height: 2rem;
+    width: 2rem;
     background-size: cover;
 }
-.link-github{
-    background-image: url(./img/github-logo.png);
+.link:nth-child(1){
+    background-image: url(./img/github-logo2.png);
 }
-.link-gmail{
+.link:nth-child(2){
     background-image: url(./img/gmail-logo.png);
+    width: 3rem;
+    height: 2rem;
 }
-.link-linkedin{
+.link:nth-child(3){
     background-image: url(./img/linkedin-logo.png);
 }
-.link-fb{
-    background-image: url();
-}
-.link-insta{
-    background-image: url(./img/Insta-logo.png);
-}
-.list{
-   list-style-type: none; 
-   padding: 0;
-   padding-left: 15px;
-   }
-.list li a {
-    text-decoration: none;
-    color: #535353;
-}
-.link-contato:nth-child(1){
-background-image: url(.img/github-logo.png);
-}
-.link-contato:nth-child(2){
-    background-image: url(./img/gmail-logo.png);
-}
-.link-contato:nth-child(3){
-    background-image: url(./img/linkedin-logo.png);
-}
-.link-contato:nth-child(4){
+.link:nth-child(4){
     background-image: url(./img/fb-logo.png);
 }
-.link-contato:nth-child(5){
+.link:nth-child(5){
     background-image: url(./img/Insta-logo.png);
 }
 
-.footer p{
-margin: 15px;
-margin-top: 50px;
-font-weight: bold;
-}
+

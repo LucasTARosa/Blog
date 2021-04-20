@@ -22,6 +22,14 @@ Este blog conta a história de um doutorando em química que começou a flertar 
 
 ##### 17/04/2021
 
-- Adicionei um novo post, falando sobre a recriação da página inicial do Instagram, utilizei alguns conceitos da aula na própria postagem, como o alinhamento do texto e da imagem.
-- Consegui alinhar a minha imagem ao centro no início do blog.
+- Foi adicionado um novo post, falando sobre a recriação da página inicial do Instagram, utilizando alguns conceitos da aula na própria postagem, como o alinhamento do texto e da imagem.
 
+- Consegui alinhar a minha imagem ao centro no início do blog, através de display flex.
+
+  
+
+##### 20/04/2021
+
+- Realizada a inclusão de um menu inicial de navegação, que muda de cor ao posicionar o mouse (porém não faz nada ainda, é apenas estético).
+- Realizada a troca do texto na informação de contato por ícones das redes sociais e e-mail.
+- Foi adicionado um novo post falando sobre javascript e dois exemplos simples, além do alinhamento da imagem de uma forma mais simples do que a imagem de perfil.

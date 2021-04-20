@@ -10,7 +10,15 @@
 <body>
 
 <header>
+    <div class="nav">
+        
     <img src="./img/60736.svg" alt="Símbolo de um blog" class="photo">
+    <div class="pgs">
+    <a href="#" class="pg">Home</a>
+    <a href="#" class="pg">Posts</a>
+    <a href="#" class="pg">Informações de contato</a>
+</div>
+</div>
         <h1 id="title">Blog do Ap</h1>
 </header>
 <section>
@@ -45,7 +53,7 @@ experiência que irei conquistando, relatando todo esse processo de aprendizado 
     </header>
     <article class="post">
         <header>
-            <h3 class="post1_title">Primeira aula de HTML + CSS</h3>
+            <h3 class="post_title">Primeira aula de HTML + CSS</h3>
             <h4 class="data">Alfenas, 15 de abril de 2021</h4>
             <img src="./img/html+css.png" alt="logo do HTML e do CSS" class="post1_image">
         </header>
@@ -71,7 +79,7 @@ experiência que irei conquistando, relatando todo esse processo de aprendizado 
     </article>
     <article class="post">
         <header>
-            <h3 class="post2_title">Recriando a página do Instagram</h3>
+            <h3 class="post_title">Recriando a página do Instagram</h3>
             <h4 class="data">Alfenas, 17 de abril de 2021</h4>
         </header>
             <div class="post2">
@@ -89,27 +97,56 @@ experiência que irei conquistando, relatando todo esse processo de aprendizado 
         </p>
     </div>
     </article>
+    <article class="post">
+        <header>
+            <h3 class="post_title">Início do uso de JavaScript</h3>
+            <h4 class="data">Alfenas, 20 de abril de 2021</h4>
+        </header>
+        <div class="post3">
+            <img src="./img/javascript.jpg" alt="Exemplo JS" class="javascript">
+            <p class="post3_1">
+                JavaScript, bom, o que eu tenho a dizer sobre você até o momento? Apenas sei que irá realizar coisas fantásticas, mas que ainda não descobri exatamente o que. Vi alguns exemplos de utilização, 
+                porém, ainda não tive o prazer de experimentar de forma prática. Talvez tenha feito apenas as aulas introdutórias, que me lembraram muito a programação em C++, que utilizei no Arduino. Estou, neste 
+                exato momento, sem internet (uma bendita fibra rompida). Portanto, parei no meio da aula sobre a recriação da famosa página da Netflix. Portanto, talvez termine este texto com outros olhos e traga algumas funcionalidades 
+                interessantes para este post.
+            </p>
+            <p class="post3_1">
+                É, fico muito contente em perceber que estava redondamente enganado sobre o javascript. É muito útil! Porém, também percebi que é possível utilizar ele apenas como um "setup" para outras funções, por assim dizer, 
+                como por exemplo na reprodução da página da Netflix, utilizado para setar o carrocel. Mas fora deste uso, percebi ser muito útil para realização de ações. Esta, inclusive, era uma das minhas "neuras" em relação ao 
+                HTML e ao CSS, onde as coisas apenas mudam na aparência, porém, de fato, não "fazem nada". Não irei exemplificar neste post sobre o carrocel, pois percebi algumas dificuldades para trabalhar posteriormente no resto do site, 
+                talvez quando eu tiver mais experiência consiga solucionar este quesito. Por hora, deixo abaixo algumas funcionalidades simple que aprendi sobre javascript.
+            </p>
+            <div class="botoes">
+                <button type="button" onclick="clicou()" class="botao">Aperte aqui</button>
+                
+                <select onchange="funcaochange(this)" class="selecao">
+
+                <option value="Selecione alguma opção.">Selecione aqui</option>
+                <option value="Meu carro favorito é a BMW X6 M.">Carro favorito</option>
+                <option value="Meu time favorito é o Manchester United.">Time favorito</option>
+                <option value="Minha comida favorita é strogonoff.">Comida favorita</option>
+                </select>
+            </div>
+            <h3 id="agradecimento" class="agradecimento"></h3>
+        </div>
+    </article>
 </section>
 
 <footer class="footer">
-    <p>Informações de contato</p>
-    <!-- <div class="contato">
-        <a href="https://github.com/LucasTARosa" class="link-github" target="_blank"></a>
-        <a href="tlucas.23@gmail.com" class="link-gmail"></a>
-        <a href="https://www.linkedin.com/in/lucas-rosa-ap/" class="link-linkedin" target="_blank"></a>
-        <a href="https://www.facebook.com/tlucas.ap" class="link-fb" target="_blank"></a>
-        <a href="https://www.instagram.com/lucas.ap04/?hl=pt-br" target="_blank" class="link-insta" target="_blank"></a>
-    </div>-->
+    <p class="informacoes">Informações de contato</p>
+    <div class="contato">
+        <a href="https://github.com/LucasTARosa" class="link" target="_blank"></a>
+        <a href="tlucas.23@gmail.com" target="_blank"    class="link"></a>
+        <a href="https://www.linkedin.com/in/lucas-rosa-ap/" class="link" target="_blank"></a>
+        <a href="https://www.facebook.com/tlucas.ap" class="link" target="_blank"></a>
+        <a href="https://www.instagram.com/lucas.ap04/?hl=pt-br" target="_blank" class="link" target="_blank"></a>
+    </div>
     
 
-<ul class="list">
-    <li><a href="tlucas.23@gmail.com" class="link-contato">E-mail</a></li>
-    <li><a href="https://www.linkedin.com/in/lucas-rosa-ap/" target="_blank" class="link-contato">Linkedin</a></li>
-    <li><a href="https://github.com/LucasTARosa" target="_blank" class="link-contato">GitHub</a></li>
-    <li><a href="https://www.facebook.com/tlucas.ap" target="_blank" class="link-contato">Facebook</a></li>
-    <li><a href="https://www.instagram.com/lucas.ap04/?hl=pt-br" target="_blank" class="link-contato">Instagram</a></li>
-</ul>
+
 
 </footer>
+
+<script src="../js/post3.js"></script>
 </body>
 </html>
