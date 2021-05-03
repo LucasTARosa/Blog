@@ -33,3 +33,10 @@ Este blog conta a história de um doutorando em química que começou a flertar 
 - Realizada a inclusão de um menu inicial de navegação, que muda de cor ao posicionar o mouse (porém não faz nada ainda, é apenas estético).
 - Realizada a troca do texto na informação de contato por ícones das redes sociais e e-mail.
 - Foi adicionado um novo post falando sobre javascript e dois exemplos simples, além do alinhamento da imagem de uma forma mais simples do que a imagem de perfil.
+
+
+
+##### 03/05/2021
+
+- Foi colocada funcionalidades nos botões de navegação no início da página.
+- Foi inserido dois novos posts, um falando sobre banco de dados SQL e noSQL e também um segundo post abordando Java.

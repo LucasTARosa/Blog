@@ -14,14 +14,14 @@
         
     <img src="./img/60736.svg" alt="Símbolo de um blog" class="photo">
     <div class="pgs">
-    <a href="#" class="pg">Home</a>
-    <a href="#" class="pg">Posts</a>
-    <a href="#" class="pg">Informações de contato</a>
+    <a href="#home" class="pg">Home</a>
+    <a href="#posts" class="pg">Posts</a>
+    <a href="#informacoes" class="pg">Informações de contato</a>
 </div>
 </div>
         <h1 id="title">Blog do Ap</h1>
 </header>
-<section>
+<section id="home">
     <header>
         <h3 class="post_title">Quem sou eu?</h3>
         <div class="cabecalho">
@@ -47,7 +47,7 @@ experiência que irei conquistando, relatando todo esse processo de aprendizado 
     </div>
     </header>
 </section>
-<section>
+<section id="posts">
     <header>
         <h2 class="sub_title">Posts</h2>
     </header>
@@ -130,9 +130,44 @@ experiência que irei conquistando, relatando todo esse processo de aprendizado 
             <h3 id="agradecimento" class="agradecimento"></h3>
         </div>
     </article>
+    <article class="post">
+<header>
+    <h3 class="post_title">Primeiro contato com banco de dados</h3>
+    <h4 class="data">Alfenas, 03 de maio de 2021</h4>
+</header>
+<div class="post4">
+    <div class="container">
+        <img src="./img/Post 4/postgre.jpg" alt="Banco de dados PostgreSQL" class="post4_1">
+        <img src="./img/Post 4/mongodb.jpg" alt="Banco de dados MongoDB" class="post4_2">
+    </div>
+    <p class="post4">
+Apesar de ter demorado para escrever este post (em relação a data que eu vi o conteúdo) acabei demorando um pouco mais pois estava assimilando o conteúdo aprendido de uma forma mais racional. Após a finalização do bootcamp sobre webdeveloper, 
+comecei a realizar o bootcamp de backend do Carrefour. Achei muito bacana, mas bem diferente do bootcamp anterior. Até o momento a maior parte do conteúdo abordado havia sido de forma mais teórica, cabendo apenas a instalação e o primeiro banco 
+de dados criado. Então, basicamente, pela primeira vez na vida criei um banco de dados (de forma intencional)! Mas não satisfeito, criei mais um! No caso foi um exemplo bem simples de banco de dados SQL e noSQL, utilizando, respectivamente, 
+os softwares PostgreSQL e MongoDB. Acredito que o principal não é ter aprendido a criar o banco de dados em si, pois foram super simples e adicionado conteúdo manualmente. Mas sim de ter entendido a diferença entre um banco de dados estruturado 
+e um não estruturado, com maior flexibilidade de adição de conteúdo. Ainda tenho um longo caminho pela frente, mas considero este um grande passo para sair do zero.
+    </p>
+</div>
+    </article>
+    <article class="post">
+        <header>
+            <h3 class="post_title">Trabalhando com Java</h3>
+            <h4 class="data">Alfenas, 03 de maio de 2021</h4>
+        </header>
+        <div class="post5">
+            <p class="post5">
+                Pode dois textos no mesmo dia, produção? Não só pode, como deve! Neste tempo sem postar nenhum texto novo, aprendi mais coisas além de banco de dados, sendo uma delas Java. Nunca havia visto Java em toda a minha vida e cá estou falando sobre. 
+                Neste curso introdutório a Java aprendi desde a instalação da interface como do Java e de builds como o Maven e o Gradle (aquela parte do Path foi novidade também!), como também programações simples e a criação de objetos. 
+                Como prometido no início, falo como a visão de quem não é da área e digo o seguinte: achei Java semelhante a C++ utilizada no Arduino. Posso estar bem enganado, mas alguns conceitos eu já havia aprendido a utilizar para programar o arduino, 
+                principalmente em relação a lógica. No mais, gostei muito da linguagem e consigo ver seu potencial, apesar de não conseguir realizar nada muito além do conteúdo abordado em aula. Mas é um passo a mais do que eu estava semana passada, o que, 
+                por hora, me faz sentir bem. Na imagem a seguir mostro um programinha simples de cálculo de IMC, assim como a classificação. 
+            </p>
+            <img src="./img/Post 5/img.jpg" alt="Aplicação em Java para o cálculo do IMC" class="java">
+        </div>
+    </article>
 </section>
 
-<footer class="footer">
+<footer class="footer" id="informacoes">
     <p class="informacoes">Informações de contato</p>
     <div class="contato">
         <a href="https://github.com/LucasTARosa" class="link" target="_blank"></a>
